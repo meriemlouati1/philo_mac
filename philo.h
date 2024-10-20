@@ -25,6 +25,7 @@ typedef struct s_info
     int time_to_eat;
     int time_to_sleep;
     int nb_meals;
+    int flag;
     pthread_t monitor;
     pthread_mutex_t *fork;
     t_philo *philo;
